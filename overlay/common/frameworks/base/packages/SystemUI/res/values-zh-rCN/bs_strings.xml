@@ -45,7 +45,7 @@
     <string name="halo_signal_bars_none">无</string>
 
     <!-- BeanStalk Shortcut Actions -->
-    <string name="shortcut_picker">BeanStalk 快捷方式</string>
+    <string name="shortcut_picker">BeanStalkKang 快捷方式</string>
 
     <!-- Dialog Cancel/OK -->
     <string name="cancel">Cancel</string>

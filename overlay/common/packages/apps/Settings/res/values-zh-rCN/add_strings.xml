@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="cpu_info">CPU</string>
+    <string name="mem_info">内存</string>
+
+    <!-- Power Widget  -->
+    <string name="power_widget_title">电控小部件</string>
+    <string name="title_expanded_widget">电控小部件</string>
+    <string name="power_widget_behavior">电控小部件行为</string>
+    <string name="title_expanded_hide_onchange">做出操作后关闭通知栏</string>
+    <string name="title_expanded_hide_indicator">隐藏指示器</string>
+    <string name="title_expanded_hide_scrollbar">隐藏滚动条</string>
+    <string name="title_widget_picker">小部件按钮</string>
+    <string name="summary_widget_picker">查看或改变目前显示的按钮</string>
+    <string name="title_widget_order">小部件按钮顺序</string>
+    <string name="summary_widget_order">查看或改变目前显示按钮的顺序</string>
+    <string name="title_buttons">按钮</string>
+    <string name="title_toggle_wifi">切换 Wi-Fi</string>
+    <string name="title_toggle_bluetooth">切换蓝牙</string>
+    <string name="title_toggle_gps">切换 GPS</string>
+    <string name="title_toggle_sound">切换声音模式</string>
+    <string name="title_toggle_brightness">切换亮度</string>
+    <string name="title_toggle_sync">切换同步</string>
+    <string name="title_toggle_wifiap">切换 Wi-Fi 热点</string>
+    <string name="title_toggle_screentimeout">切换屏幕超时</string>
+    <string name="title_toggle_mobiledata">切换移动数据</string>
+    <string name="title_toggle_lockscreen">切换锁屏</string>
+    <string name="title_toggle_networkmode">切换网络模式</string>
+    <string name="title_toggle_autorotate">切换屏幕旋转</string>
+    <string name="title_toggle_airplane">切换飞行模式</string>
+    <string name="title_toggle_flashlight">切换 LED 手电筒</string>
+    <string name="title_toggle_sleep">睡眠模式</string>
+    <string name="title_toggle_media_play_pause">媒体: 切换播放/暂停</string>
+    <string name="title_toggle_media_previous">媒体: 跳到前一首</string>
+    <string name="title_toggle_media_next">媒体: 跳到下一首</string>
+    <string name="title_toggle_lte">切换 LTE</string>
+    <string name="title_toggle_wimax">切换 WiMAX</string>
+    <string name="title_toggle_reboot">重启（长按恢复模式）</string>
+    <string name="title_toggle_fcharge">切换快速充电</string>
+    <string name="title_button_modes">按钮模式</string>
+    <string name="pref_brightness_mode_title">亮度切换模式</string>
+    <string name="pref_brightness_mode_summary">查看或更改亮度按钮的切换模式</string>
+    <string name="cm_brightness_mode_auto">自动</string>
+    <string name="cm_brightness_mode_dim">较暗</string>
+    <string name="pref_network_mode_title">网络切换模式</string>
+    <string name="pref_screentimeout_mode_title">屏幕超时切换模式</string>
+    <string name="pref_ring_mode_title">声音切换模式</string>
+    <string name="pref_ring_mode_summary">选择声音按钮的切换方式</string>
+    <string name="cm_sound_mode_silent">静音</string>
+    <string name="cm_sound_mode_vibrate">振动</string>
+    <string name="cm_sound_mode_sound">铃声</string>
+    <string name="cm_sound_mode_soundVibrate">铃声 &amp; 振动</string>
+    <string name="pref_flash_mode_title">手电筒切换模式</string>
+    <string name="expanded_haptic_feedback_title">触动反馈</string>
+
+    <!-- Power Widget toggle color -->
+    <string name="toggle_color_title">按钮颜色</string>
+    <string name="enable_toggle_colors_title">启用按钮颜色</string>
+    <string name="toggle_icon_color_on_title">开启时颜色</string>
+    <string name="toggle_icon_color_on_summary">Sets color for activated toggle icons</string>
+    <string name="toggle_icon_color_off_title">关闭时颜色</string>
+    <string name="toggle_icon_color_off_summary">Sets color for not activated toggle icons</string>
+
+    <string name="power_widget_additional_options_cat">附加选项</string>
+    <string name="brightness_location_title">亮度调整的位置</string>
+    <string name="brightness_slider_top">顶部</string>
+    <string name="brightness_slider_bottom">底部</string>
+    <string name="brightness_slider_none">隐藏</string>
+
+</resources>

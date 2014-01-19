@@ -65,7 +65,7 @@
     <string name="buttons_layout_title">按键布局</string>
 
     <string name="pa_pie_controls_title">Pie 面版</string>
-    <string name="pa_pie_controls_summary">提供虚拟键及信息面版(在全屏模式使用)</string>
+    <string name="pa_pie_controls_summary">提供虚拟键及信息面版（在全屏模式使用）</string>
     <string name="pie_gravity_title">Pie 位置</string>
     <string name="pie_gravity_summary">选择 Pie 在屏幕上呼出的位置</string>
     <string name="pie_gravity_top">屏幕顶部</string>
@@ -102,13 +102,13 @@
     <string name="pie_power_summary">显示电源键</string>
     <string name="pie_killtask_title">结束程序键</string>
     <string name="pie_killtask_summary">显示结束程序键</string>
-    <string name="pie_actnotif_title">显示通知栏键</string>
+    <string name="pie_actnotif_title">通知栏键</string>
     <string name="pie_actnotif_summary">在 Pie 上显示通知栏键</string>
-    <string name="pie_actqs_title">显示磁贴快捷栏键</string>
+    <string name="pie_actqs_title">磁贴快捷栏键</string>
     <string name="pie_actqs_summary">在 Pie 上显示磁贴快捷栏键</string>
     <string name="pie_appwindow_title">应用程序窗口键</string>
     <string name="pie_appwindow_summary">显示应用程序窗口键（在 ROM控制 - 操作区 中设置）</string>
-    <string name="pie_screenshot_title">显示截屏键</string>
+    <string name="pie_screenshot_title">截屏键</string>
     <string name="pie_screenshot_summary">在 Pie 上显示截屏键</string>
     <string name="pie_center_title">Pie 中心</string>
     <string name="pie_center_summary">在触发侧 Pie 显示在屏幕中心</string>
@@ -154,5 +154,34 @@
     <string name="status_bar_traffic_style_hidden">隐藏</string>
     <string name="status_bar_traffic_style_rx">仅显示下载速度</string>
     <string name="status_bar_traffic_style_rxtx">显示上传和下载速度</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_notif_count_title">显示通知数量</string>
+    <string name="status_bar_notif_count_summary">在状态栏显示未查看的通知数量</string>
+
+    <string name="title_tile_fcharge">快速充电</string>
+    <string name="title_tile_screenshot">屏幕截图</string>
+    <string name="pref_screenshot_delay_title">截图延迟</string>
+
+    <string name="time_0_seconds_off">关闭</string>
+    <string name="time_0_2_seconds">.2 秒</string>
+    <string name="time_0_5_seconds">.5 秒</string>
+    <string name="time_1_second">1 秒</string>
+    <string name="time_1_5_seconds">1.5 秒</string>
+    <string name="time_2_seconds">2 秒</string>
+    <string name="time_2_5_seconds">2.5 秒</string>
+    <string name="time_3_seconds">3 秒</string>
+    <string name="time_3_5_seconds">3.5 秒</string>
+    <string name="time_4_seconds">4 秒</string>
+    <string name="time_4_5_seconds">4.5 秒</string>
+    <string name="time_5_seconds">5 秒</string>
+    <string name="time_5_5_seconds">5.5 秒</string>
+    <string name="time_6_seconds">6 秒</string>
+    <string name="time_7_seconds">7 秒</string>
+    <string name="time_8_seconds">8 秒</string>
+    <string name="time_9_seconds">9 秒</string>
+    <string name="time_10_seconds">10 秒</string>
+
+    <string name="title_tile_camera">相机</string>
 
 </resources>

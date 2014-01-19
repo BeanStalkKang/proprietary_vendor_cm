@@ -7,6 +7,18 @@
     <string name="status_bar_recent_floating_item_title">悬浮窗模式</string>
 
     <!-- PA PIE -->
-    <string name="pie_date_format">y年M月d日 ccc</string>
+    <string name="pie_date_format">M月d日 ccc</string>
+
+    <string name="quick_settings_fcharge">快速充电</string>
+    <string name="quick_settings_screenshot_label">屏幕截图</string>
+
+    <!-- Screenshot -->
+    <string name="permdesc_screenshot">捕获屏幕截图</string>
+    <string name="permlab_screenshot">允许应用捕获屏幕截图。这是系统用户界面的保护。</string>
+    <string name="screenshot_toast">在%1$d秒后截图</string>
+
+    <string name="quick_settings_camera_label">相机</string>
+    <!-- Camera tile toasts -->
+    <string name="quick_settings_camera_error_connect">无法连接到相机</string>
 
 </resources>
