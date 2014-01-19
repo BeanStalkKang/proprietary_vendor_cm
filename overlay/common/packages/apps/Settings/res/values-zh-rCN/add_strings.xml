@@ -69,4 +69,7 @@
     <string name="brightness_slider_bottom">底部</string>
     <string name="brightness_slider_none">隐藏</string>
 
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_cyanogenmod_title">隐私</string>
+
 </resources>

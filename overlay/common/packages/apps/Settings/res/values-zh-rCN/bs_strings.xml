@@ -277,11 +277,17 @@
 
     <!-- Notification drawer settings -->
     <string name="notification_drawer_title">通知栏</string>
-    <string name="notification_hide_carrier_title">隐藏运营商名称</string>
-    <string name="notification_hide_carrier_summary">隐藏通知栏底部 WLAN 及运营商名称</string>
     <string name="notification_shortcuts_settings_title">通知栏捷径</string>
     <string name="notification_shortcuts_settings_summary">通知栏新增捷径</string>
 
+    <!-- Notification hide labels -->
+    <string name="notification_hide_labels_title">隐藏通知栏网络名称</string>
+    <string name="notification_hide_labels_disable">显示所有名称</string>
+    <string name="notification_hide_labels_carrier">隐藏运营商名称</string>
+    <string name="notification_hide_labels_wifi">隐藏 WLAN 名称</string>
+    <string name="notification_hide_labels_all">隐藏所有名称</string>
+    <string name="notification_hide_labels_text">于通知栏中</string>
+    
     <!-- StatusBar Battery Settings -->
     <string name="battery_icon_title">电量图标风格</string>
     <string name="battery_status_icon">图标</string>
@@ -610,6 +616,8 @@
     <string name="lockscreen_eight_targets_summary">在锁屏使用八个解锁捷径.</string>
     <string name="lockscreen_enable_eight_targets_dialog">改变此选项将重置所有当前解锁捷径设置.</string>
     <string name="lockscreen_enable_eight_targets_enabled_dialog">\n\n使用八个滑动解锁目标将不能使用锁屏捷径.</string>
+    <string name="lockscreen_glowpad_torch_title">解锁圈手电筒</string>
+    <string name="lockscreen_glowpad_torch_summary">双击并按住解锁圈打开手电筒</string>
     <string name="lockscreen_target_reset">锁屏目屏已重置</string>
     <string name="lockscreen_target_reset_message">是否确定重置所有滑动捷径？</string>
     <string name="lockscreen_target_empty">空白</string>
@@ -1100,4 +1108,22 @@
     <string name="listview_anticipate_overshoot_interpolator">到达终点产生弹球效果，弹几下回到终点</string>
     <string name="listview_bounce_interpolator">均匀速度</string>
 
+    <!-- Telo Radio -->
+    <string name="telo_radio_settings_title">数据连接（省电）管理</string>
+    <string name="telo_radio_options_category">亮屏分配</string>
+    <string name="telo_radio_lte_title">优先连接 LTE</string>
+    <string name="telo_radio_lte_summary">解锁后优先使用 4G 数据连接</string>
+    <string name="telo_radio_2g_wifi_title">WLAN + 2G</string>
+    <string name="telo_radio_2g_wifi_title_summary">WLAN 连接时使用 2G 连接</string>
+    <string name="telo_radio_2g_screenoff_category">关屏分配</string>
+    <string name="telo_radio_2g_screenoff_title">2G 模式</string>
+    <string name="telo_radio_2g_screenoff_summary">关屏时使用 2G 方式连接</string>
+    <string name="telo_radio_2g_screenoff_timeout_title">改变连接（关屏）超时值</string>
+    <string name="telo_radio_2g_3min">3 分钟</string>
+    <string name="telo_radio_2g_5min">5 分钟</string>
+    <string name="telo_radio_2g_10min">10 分钟</string>
+    <string name="telo_radio_2g_15min">15 分钟</string>
+    <string name="telo_radio_2g_20min">20 分钟</string>
+    <string name="telo_radio_go_3g_unlock_title">恢复 3G 连接</string>
+    <string name="telo_radio_go_3g_unlock_summary">解锁恢复 3G 连接</string>
 </resources>
