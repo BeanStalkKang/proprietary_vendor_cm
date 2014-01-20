@@ -17,13 +17,13 @@
     <string name="title_widget_order">小部件按钮顺序</string>
     <string name="summary_widget_order">查看或改变目前显示按钮的顺序</string>
     <string name="title_buttons">按钮</string>
-    <string name="title_toggle_wifi">切换 Wi-Fi</string>
+    <string name="title_toggle_wifi">切换 WLAN</string>
     <string name="title_toggle_bluetooth">切换蓝牙</string>
     <string name="title_toggle_gps">切换 GPS</string>
     <string name="title_toggle_sound">切换声音模式</string>
     <string name="title_toggle_brightness">切换亮度</string>
     <string name="title_toggle_sync">切换同步</string>
-    <string name="title_toggle_wifiap">切换 Wi-Fi 热点</string>
+    <string name="title_toggle_wifiap">切换 WLAN 热点</string>
     <string name="title_toggle_screentimeout">切换屏幕超时</string>
     <string name="title_toggle_mobiledata">切换移动数据</string>
     <string name="title_toggle_lockscreen">切换锁屏</string>
@@ -71,5 +71,25 @@
 
     <!-- Privacy Settings Header item -->
     <string name="privacy_settings_cyanogenmod_title">隐私</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">重启系统用户界面</string>
+
+    <!--  development shortcut -->
+    <string name="development_shortcut_title">开发者捷径</string>
+    <string name="development_shortcut_summary">"在通知栏及最近应用界面新增 '清除数据' 及 '强制关闭' 选项"</string>
+
+    <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
+    <string name="custom_runtime_warning_title">警告</string>
+    <string name="custom_runtime_warning_message">ART 并没有正式获得 CyanogenMod 支持。此设置将仅用于实验并有可能造成设备不稳定，死机，数据丢失或不能正常引导。访问 &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; 了解更多信息。&lt;br/&gt;&lt;br/&gt;因此请勿提交相关错误报告。&lt;br/&gt;&lt;br/&gt;要重新启动以将运行环境从“<xliff:g id="old" example="libdvm.so">%1$s</xliff:g>”改为“<xliff:g id="new" example="libart.so">%2$s</xliff:g>”吗？</string>
+
+    <string name="volbtn_cursor_control_title">音量键控制光标</string>
+    <string name="volbtn_cursor_control_off">禁用</string>
+    <string name="volbtn_cursor_control_on">音量上/下可使光标左/右移动</string>
+    <string name="volbtn_cursor_control_on_reverse">音量上/下可使光标右/左移动</string>
+
+    <string name="button_headsethook_title">耳机</string>
+    <string name="button_headsethook_launch_voice_title">耳机控制语音服务</string>
+    <string name="button_headsethook_launch_voice_summary">按下耳机按键即启用语音指令功能</string>
 
 </resources>

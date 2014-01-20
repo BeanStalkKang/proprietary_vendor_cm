@@ -855,6 +855,7 @@
     <string name="title_tile_battery">电池状态</string>
     <string name="title_tile_bluetooth">蓝牙</string>
     <string name="title_tile_brightness">亮度</string>
+    <string name="title_tile_contact">联系人</string>
     <string name="title_tile_custom">自定义</string>
     <string name="title_tile_sleep">休眠</string>
     <string name="title_tile_location">位置信息</string>
@@ -992,9 +993,9 @@
     <string name="status_bar_double_tap_to_sleep_title">双击休眠</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info">显示 CPU 信息</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">屏幕叠加层显示当前 CPU 信息</string>
 
     <!--Lockscreen blur-->
     <string name="lockscreen_misc_title">其它功能</string>
@@ -1126,4 +1127,41 @@
     <string name="telo_radio_2g_20min">20 分钟</string>
     <string name="telo_radio_go_3g_unlock_title">恢复 3G 连接</string>
     <string name="telo_radio_go_3g_unlock_summary">解锁恢复 3G 连接</string>
+
+    <string name="additional_options_title">其它选项</string>
+    <string name="unlock_menu_unlock_title">菜单键解锁</string>
+    <string name="unlock_menu_unlock_summary">按下菜单键即可解锁设备</string>
+    <string name="unlock_home_unlock_title">Home 键解锁</string>
+    <string name="unlock_home_unlock_summary">按下 Home 键即可解锁设备</string>
+
+    <!-- Lock screen buttons -->
+    <string name="lockscreen_buttons_title">硬件按键</string>
+    <string name="lockscreen_buttons_summary">查看或更改按键分配</string>
+    <string name="lockscreen_long_press_back_title">长按返回键</string>
+    <string name="lockscreen_long_press_home_title">长按 Home 键</string>
+    <string name="lockscreen_long_press_menu_title">长按菜单键</string>
+    <string name="lockscreen_buttons_no_action">没有动作</string>
+    <string name="lockscreen_buttons_flashlight">手电筒</string>
+    <string name="lockscreen_buttons_next">播放器：下一首</string>
+    <string name="lockscreen_buttons_previous">播放器：上一首</string>
+    <string name="lockscreen_buttons_playpause">播放/暂停</string>
+    <string name="lockscreen_buttons_toggle_sound">声音</string>
+    <string name="lockscreen_buttons_sleep">休眠</string>
+
+    <!-- Lock screen misc. settings -->
+    <string name="lockscreen_battery_status_title">电池状态</string>
+    <string name="lockscreen_battery_status_charging">仅在充电时显示</string>
+    <string name="lockscreen_battery_status_alwayson">始终显示</string>
+    <string name="lockscreen_battery_status_alwaysoff">始终隐藏</string>
+
+    <!-- QuickSettings: Quick Collapse -->
+    <string name="title_collapse_panel">点击开关后收起通知栏</string>
+    <string name="summary_collapse_panel">开关动作执行后通知栏将被收起</string>
+
+    <!-- QuickSettings: Smart Pulldown -->
+    <string name="smart_pulldown_title">智能下拉</string>
+    <string name="smart_pulldown_summary">当没有%1$s通知时打开快速设置</string>
+    <string name="smart_pulldown_off">关闭</string>
+    <string name="smart_pulldown_dismissable">可取消的</string>
+    <string name="smart_pulldown_persistent">持续的</string>
 </resources>

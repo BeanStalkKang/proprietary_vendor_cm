@@ -132,6 +132,7 @@
     <string name="quick_settings_quick_record_save">已储存</string>
     <string name="quick_settings_quick_record_play">播放中...</string>
     <string name="quick_settings_custom_toggle">自定义</string>
+    <string name="quick_settings_contact_toggle">联系人</string>
 
     <!-- Label in drop down to identify brightness slider -->
     <string name="brightness_label">亮度</string>

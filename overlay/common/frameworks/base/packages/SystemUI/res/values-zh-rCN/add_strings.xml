@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Development shortcut -->
+    <string name="advanced_dev_option_wipe_app">清除数据</string>
+    <string name="advanced_dev_option_force_stop">强制关闭</string>
+
+</resources>
