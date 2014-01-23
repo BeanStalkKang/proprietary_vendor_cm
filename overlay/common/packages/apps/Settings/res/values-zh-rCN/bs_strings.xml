@@ -1164,4 +1164,24 @@
     <string name="smart_pulldown_off">关闭</string>
     <string name="smart_pulldown_dismissable">可取消的</string>
     <string name="smart_pulldown_persistent">持续的</string>
+
+    <!-- SlimSizer  -->
+    <string name="system_app_remover">系统应用移除</string>
+    <string name="listsystem">列表</string>
+    <string name="sizer_title">系统应用移除</string>
+    <string name="caution">注意！</string>
+    <string name="sizer_message_startup">这个工具允许你删除系统应用程序。请谨慎使用，并只删除您知道应用程序删除后是安全的。</string>
+    <string name="cancel">取消</string>
+    <string name="sizer_message_delete">您确定要删除这个应用程序吗？</string>
+    <string name="btn_delete">立即删除选定的应用程序！</string>
+    <string name="delete_progress_title">正在删除</string>
+    <string name="delete_progress">所选文件正在被删除...</string>
+    <string name="delete_success">已删除</string>
+    <string name="delete_fail">无法删除</string>
+    <string name="btn_profile">配置文件</string>
+    <string name="sizer_message_sdnowrite">无法写入 SD 卡。</string>
+    <string name="sizer_message_sdnoread">无法读取 SD 卡。</string>
+    <string name="sizer_message_filesuccess">配置文件已创建。</string>
+    <string name="sizer_message_filefail">无法创建配置文件。</string>
+    <string name="sizer_message_noselect">没有选定任何应用。</string>
 </resources>

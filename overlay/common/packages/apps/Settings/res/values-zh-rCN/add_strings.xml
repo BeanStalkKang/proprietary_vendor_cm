@@ -118,4 +118,10 @@
     <string name="brightness_slider_title">状态栏亮度控制</string>
     <string name="brightness_slider_summary">启用时在状态栏上左右滑动以调整亮度。提示：自动亮度开启时将不会被激活。</string>
 
+    <string name="unlock_camera_unlock_title">快门键解锁</string>
+    <string name="unlock_camera_unlock_summary">按下快门键即可解锁设备</string>
+
+    <!-- tap-to-wake -->
+    <string name="double_tap_to_wake_title">双击唤醒</string>
+
 </resources>
