@@ -92,4 +92,30 @@
     <string name="button_headsethook_launch_voice_title">耳机控制语音服务</string>
     <string name="button_headsethook_launch_voice_summary">按下耳机按键即启用语音指令功能</string>
 
+    <!-- Volume panel style -->
+    <string name="volume_overlay_title">音量面板风格</string>
+    <string name="volume_overlay_single">单行</string>
+    <string name="volume_overlay_expandable">可扩展</string>
+    <string name="volume_overlay_expanded">已扩展</string>
+    <string name="volume_overlay_none">关闭</string>
+
+    <!-- Automatation and effects category -->
+    <string name="automation_effects_title">自动化 &amp; 音效</string>
+
+    <!-- Convert sound to vibration toggle -->
+    <string name="notification_convert_sound_to_vibration_title">收到通知时振动</string>
+    <string name="notification_convert_sound_to_vibration_summary">处于振动模式时，所有的通知都将无视任何应用的单独设置并产生振动</string>
+
+    <!-- Vibrate during phone calls -->
+    <string name="notification_vibrate_during_calls_title">呼叫时振动</string>
+    <string name="notification_vibrate_during_calls_summary">通话期间来电时振动通知</string>
+
+    <!-- Volume adjustment sound -->
+    <string name="volume_adjust_sounds_enable_title">音量调整提示音</string>
+    <string name="volume_adjust_sounds_enable_summary">使用音量键调整音量时将播放提示音</string>
+
+    <!-- Status bar brightness slider -->
+    <string name="brightness_slider_title">状态栏亮度控制</string>
+    <string name="brightness_slider_summary">启用时在状态栏上左右滑动以调整亮度。提示：自动亮度开启时将不会被激活。</string>
+
 </resources>

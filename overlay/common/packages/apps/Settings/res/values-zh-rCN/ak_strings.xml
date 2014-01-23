@@ -184,4 +184,13 @@
 
     <string name="title_tile_camera">相机</string>
 
+    <string name="battery_percentage_indicator_title">显示电量百分比</string>
+    <string name="battery_percentage_indicator_summary">在电量图标前显示电量百分比</string>
+    <string name="battery_percentage_indicator_plugged_title">充电指示</string>
+    <string name="battery_percentage_indicator_plugged_summary">在充电过程中电量百分比显示不同颜色</string>
+
+    <!-- show carrier label -->
+    <string name="show_status_bar_carrier_title">状态栏运营商名称</string>
+    <string name="show_status_bar_carrier_summary">在状态栏显示运营商名称</string>
+
 </resources>
