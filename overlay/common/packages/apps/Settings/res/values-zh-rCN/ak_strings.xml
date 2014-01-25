@@ -193,4 +193,37 @@
     <string name="show_status_bar_carrier_title">状态栏运营商名称</string>
     <string name="show_status_bar_carrier_summary">在状态栏显示运营商名称</string>
 
+    <!-- Lockscreen Notifications -->
+    <!-- Categories -->
+    <string name="general">常规</string>
+    <string name="layout">布局</string>
+    <string name="privacy">隐私</string>
+
+    <string name="Lockscreen_notifications_header">锁屏通知</string>
+    <string name="lockscreen_notifications">锁屏通知</string>
+    <string name="lockscreen_notifications_summary">在锁屏显示待处理的通知</string>
+    <string name="pocket_mode">口袋模式</string>
+    <string name="pocket_mode_summary">从口袋拿出来时显示所有通知，放回口袋中自动关屏</string>
+    <string name="show_always">永远显示</string>
+    <string name="show_always_summary">不管有没有新的通知都点亮屏幕</string>
+    <string name="hide_low_priority">隐藏低优先等级通知</string>
+    <string name="hide_low_priority_summary">隐藏低优先等级通知如谷歌天气更新</string>
+    <string name="hide_non_clearable">隐藏不可清除通知</string>
+    <string name="hide_non_clearable_summary">隐藏所有不可清除的通知</string>
+    <string name="dismiss_all">允许清除所有通知</string>
+    <string name="dismiss_all_summary">允许清除所有通知，但仍然会保留在下拉通知栏中</string>
+    <string name="expanded_view">展开通知显示</string>
+    <string name="expanded_view_summary">以展开方式显示所有通知内容</string>
+    <string name="force_expanded_view">强制展开显示</string>
+    <string name="force_expanded_view_summary">默认以强制方式展开，您仍可以在一般或展开显示模式中切换</string>
+    <string name="wake_on_notification">唤醒屏幕</string>
+    <string name="wake_on_notification_summary">收到新通知时唤醒屏幕</string>
+    <string name="notifications_height">通知数量</string>
+    <string name="notifications_height_summary">一次显示的通知数量</string>
+    <string name="offset_top">屏幕顶部偏移：</string>
+    <string name="privacy_mode">隐私模式</string>
+    <string name="privacy_mode_summary">隐藏所有通知内容，只显示通知图标</string>
+    <string name="excluded_apps_title">排除应用</string>
+    <string name="excluded_apps_summary">排除的应用将不会显示为锁屏通知</string>
+
 </resources>
