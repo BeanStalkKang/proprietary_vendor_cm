@@ -15,10 +15,23 @@
     <!-- Screenshot -->
     <string name="permdesc_screenshot">捕获屏幕截图</string>
     <string name="permlab_screenshot">允许应用捕获屏幕截图。这是系统用户界面的保护。</string>
-    <string name="screenshot_toast">在%1$d秒后截图</string>
+    <string name="screenshot_toast">在 %1$d 秒后截图</string>
 
     <string name="quick_settings_camera_label">相机</string>
     <!-- Camera tile toasts -->
     <string name="quick_settings_camera_error_connect">无法连接到相机</string>
+
+    <!-- Battery percent format -->
+    <string name="battery_percent_format"><xliff:g id="number">%d%%</xliff:g></string>
+
+    <!-- Battery status in pie controls -->
+    <string name="spie_battery_status_charging">正在充电 (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="spie_battery_status_full">充电完成</string>
+    <string name="spie_battery_status_discharging">剩余 <xliff:g id="percent">%d</xliff:g>%%</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="spie_phone_status_no_service">无服务</string>
+    <string name="spie_phone_status_airplane_mode">飞行模式</string>
+    <string name="spie_phone_status_emergency_only">只可拨打紧急号码</string>
 
 </resources>

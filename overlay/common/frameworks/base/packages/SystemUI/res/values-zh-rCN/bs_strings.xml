@@ -121,6 +121,11 @@
     <string name="quick_settings_expanded_desktop_off">正常模式</string>
     <string name="quick_settings_music_play">播放</string>
     <string name="quick_settings_music_pause">暂停</string>
+    <string name="quick_settings_music_schedule_title">睡眠定时器</string>
+    <string name="quick_settings_music_schedule_in_progress">定时器进行中</string>
+    <string name="quick_settings_music_schedule_start">启动定时器</string>
+    <string name="quick_settings_music_schedule_cancel">清除定时器</string>
+    <string name="quick_settings_music_schedule_update">更新定时器</string>
     <string name="quick_settings_reboot_recovery">恢复模式</string>
     <string name="quick_settings_reboot">重启手机</string>
 
