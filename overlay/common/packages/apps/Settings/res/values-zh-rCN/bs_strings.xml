@@ -990,8 +990,8 @@
     <string name="fast_torch_title">快速手电筒</string>
     <string name="fast_torch_summary">关屏时长按电源键打开手电筒</string>
     <string name="performance_settings">性能控制</string>
-    <string name="status_bar_double_tap_to_sleep_title">双击休眠</string>
-    <string name="lockscreen_double_tap_sleep_title">双击休眠</string>
+    <string name="status_bar_double_tap_to_sleep_title">状态栏双击休眠</string>
+    <string name="lockscreen_double_tap_sleep_title">解锁圈双击休眠</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">显示 CPU 信息</string>
