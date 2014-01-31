@@ -3,7 +3,7 @@ DATE = $(shell date +%Y%m%d)
 
 PRODUCT_BRAND ?= cyanogenmod
 
-SUPERUSER_EMBEDDED := true
+SUPERUSER_EMBEDDED := false
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
 # To deal with CM9 specifications
@@ -161,6 +161,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
 
+# SuperSU 1.91
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/SuperSu/su:system/xbin/su \
+    vendor/cm/prebuilt/SuperSu/daemonsu:system/xbin/daemonsu \
+    vendor/cm/prebuilt/SuperSu/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/cm/prebuilt/SuperSu/install-recovery.sh:system/etc/install-recovery.sh \
+    vendor/cm/prebuilt/SuperSu/Superuser.apk:system/app/Superuser.apk \
+    vendor/cm/prebuilt/SuperSu/installed_su_daemon:system/etc/.installed_su_daemon \
+    vendor/cm/prebuilt/SuperSu/has_su_daemon:system/etc/.has_su_daemon
+
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
@@ -168,9 +178,7 @@ include vendor/cm/config/themes_common.mk
 PRODUCT_PACKAGES += \
     Development \
     BluetoothExt \
-    LatinIME \
-    Superuser \
-    su
+    LatinIME
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
