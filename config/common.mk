@@ -202,6 +202,7 @@ PRODUCT_PACKAGES += \
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
+    libsepol \
     openvpn \
     e2fsck \
     mke2fs \
@@ -295,7 +296,7 @@ else
     CM_EXTRAVERSION :=
 endif
 
-Bean_Version=4.4.215
+Bean_Version=4.4.230
 CM_VERSION := BeanStalkKang-$(CM_BUILD)-kk-aikons-$(DATE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
