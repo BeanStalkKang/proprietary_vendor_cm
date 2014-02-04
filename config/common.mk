@@ -138,7 +138,9 @@ PRODUCT_COPY_FILES += \
 # Copy JNI libarary of Term
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
+    vendor/cm/prebuilt/appsetting.apk:system/app/appsetting.apk \
+    vendor/cm/prebuilt/xposed_installer.apk:system/app/xposed_installer.apk
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
@@ -297,7 +299,7 @@ else
     CM_EXTRAVERSION :=
 endif
 
-Bean_Version=4.4.230
+Bean_Version=4.4.240
 CM_VERSION := BeanStalkKang-$(CM_BUILD)-kk-aikons-$(DATE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
