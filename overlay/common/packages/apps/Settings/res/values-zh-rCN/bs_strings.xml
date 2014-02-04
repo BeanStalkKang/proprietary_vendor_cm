@@ -1189,4 +1189,72 @@
     <!-- Enable power menu -->
     <string name="lockscreen_enable_power_menu_title">启用电源菜单</string>
     <string name="lockscreen_enable_power_menu_summary">屏幕锁定时显示电源菜单</string>
+
+
+    <!-- Breathing Notifications -->
+    <string name="breathing_notifications_title">呼吸通知</string>
+    <string name="sms_breath">短信呼吸通知</string>
+    <string name="sms_breath_summary">在状态栏启用短信呼吸通知效果</string>
+    <string name="title_missed_call_breath">未接来电呼吸通知</string>
+    <string name="missed_call_breath_summary">在状态栏启用未接来电呼吸通知效果</string>
+    <string name="title_voicemail_breath">语音信箱呼吸通知</string>
+    <string name="voicemail_breath_summary">在状态栏启用语音信箱呼吸通知效果</string>
+
+    <string name="custom_statusbar_header_title">通知栏顶部情境</string>
+    <string name="custom_statusbar_header_summary">根据当前日期和时间，将通知栏顶部背景设置为不同的图片显示</string>
+
+    <!-- Sound themes -->
+    <string name="sound_packages_title">音效包</string>
+    <string name="install_sound_pack_title">安装音效包</string>
+    <string name="install_sound_pack_summary">安装内部存储卡下 SoundPacks 文件夹中的音效包</string>
+    <string name="select_sound_pack_title">选择音效包</string>
+    <string name="select_sound_pack_summary">应用新的音效包</string>
+    <string name="default_sound_pack">默认（系统）</string>
+    <string name="error_pack_install">安装时发生错误</string>
+
+    <!-- Xposed -->
+    <string name="xposed_category_title">Xposed</string>
+    <string name="xposed_framework_modules_title">框架 &amp; 模块</string>
+    <string name="xposed_framework_modules_summary">Xposed 框架安装与模块管理。请先点击安装！</string>
+    <string name="xposed_per_app_title">Per App Settings</string>
+    <string name="xposed_per_app__summary">自定义 DPI，UI 布局及更多深化设定</string>
+    <string name="xposed_netflix_title">Netflix Workaround</string>
+    <string name="xposed_netflix_summary">Netflix workaround for Exynos4 devices on AOSP 4.4.x+ Activate module to use</string>
+    <string name="xposed_warning_title">警告：</string>
+    <string name="xposed_warning_summary">这些模块可能会对设备性能造成损害，请小心使用！</string>
+
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">任意手势</string>
+    <string name="gesture_anywhere_enabled_title">任意手势</string>
+    <string name="gesture_anywhere_enabled_summary">启用任意手势功能</string>
+    <string name="gesture_anywhere_position_title">位置</string>
+    <string name="gesture_anywhere_position_left">屏幕左侧</string>
+    <string name="gesture_anywhere_position_right">屏幕右侧</string>
+    <string name="gesture_anywhere_gestures_title">手势</string>
+    <string name="gesture_anywhere_gestures_summary">新增，删除或编辑手势</string>
+    <string name="ga_button_add">新增手势</string>
+    <string name="ga_button_reload">重新载入</string>
+    <string name="ga_button_discard">取消</string>
+    <string name="ga_button_done">完成</string>
+    <string name="ga_prompt_gesture_name">名称</string>
+    <string name="ga_error_missing_name">必须设置手势名称</string>
+    <string name="ga_save_success">手势已存储于 %s</string>
+    <string name="ga_rename_action">确定</string>
+    <string name="ga_cancel_action">取消</string>
+    <string name="ga_gestures_loading">载入手势...</string>
+    <string name="ga_gestures_empty">没有任何手势</string>
+    <string name="ga_gestures_activity">手势名单</string>
+    <string name="ga_gestures_edit">编辑</string>
+    <string name="ga_gestures_delete">删除</string>
+    <string name="ga_gestures_delete_success">手势已删除</string>
+    <string name="ga_gestures_rename_title">重命名手势</string>
+    <string name="ga_gestures_rename_label">手势名称</string>
+    <string name="ga_gestures_error_loading">不能装入手势 %s，请确定存储设备操作正常。</string>
+    <string name="trigger_category">触发区域</string>
+    <string name="trigger_width_title">触发宽度</string>
+    <string name="trigger_width_summary">调整触发区域的宽度</string>
+    <string name="trigger_top_title">触发位置</string>
+    <string name="trigger_top_summary">调整触发区域的纵向位置</string>
+    <string name="trigger_bottom_title">触发高度</string>
+    <string name="trigger_bottom_summary">调整触发区域的高度</string>
 </resources>

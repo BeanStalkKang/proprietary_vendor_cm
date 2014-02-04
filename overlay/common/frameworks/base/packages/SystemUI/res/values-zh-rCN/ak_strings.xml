@@ -37,4 +37,11 @@
     <!-- Title shown in recents popup for adding an application to the split view -->
     <string name="status_bar_recent_add_to_split_view">添加到拆分视图</string>
 
+    <string name="status_bar_notification_hide_icon_packages">隐藏应用图标</string>
+
+    <!-- Title shown in recents popup for locking an app from being cleared -->
+    <string name="status_bar_recent_lock_item_title">锁定</string>
+    <!-- Title shown in recents popup for unlocking an app from being cleared -->
+    <string name="status_bar_recent_unlock_item_title">解锁</string>
+
 </resources>

@@ -53,7 +53,7 @@
     <string name="pie_help_title">帮助</string>
     <string name="pie_help_text"><b>PA 跟 Slim 版本的 Pie 有什么区别？</b>" 
 
-PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按键功能。Slim 版本则具备更多设置，是能够完全胜任导航栏的替补。"</string>
+PA 版本是全屏助手，简洁美观的方式在全屏模式中提供基本按键功能。Slim 版本则具备更多设置，是能够完全胜任导航栏的替补。"</string>
     <string name="slimpie_title">Slim Pie</string>
     <string name="slimpie_summary">可作为导航栏用途，含多种自定义设置</string>
     <string name="pie_title">PA Pie</string>
