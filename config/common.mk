@@ -194,7 +194,6 @@ PRODUCT_PACKAGES += \
     MonthCalendarWidget \
     LockClock \
     DashClock \
-    OmniSwitch \
     CMFileManager
 
 PRODUCT_PACKAGES += \
