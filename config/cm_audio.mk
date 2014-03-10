@@ -37,5 +37,4 @@ PRODUCT_COPY_FILES += \
 
 # SoundPack
 PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/media/audio/soundpack/plodeys1.zip:system/media/audio/plodeys.zip
-
+	vendor/cm/prebuilt/common/media/audio/soundpack/plodeys1.zip:system/media/audio/plodeys.zip
