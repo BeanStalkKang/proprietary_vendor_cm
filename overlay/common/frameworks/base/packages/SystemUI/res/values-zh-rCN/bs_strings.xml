@@ -66,9 +66,7 @@
     <string name="shortcut_reboot">重启 (立即)</string>
     <string name="shortcut_recovery">恢复模式</string>
     <string name="shortcut_last_app">最后应用</string>
-    <string name="shortcut_power_menu">电源键菜单</string>
     <string name="shortcut_screenshot">屏幕截图</string>
-    <string name="shortcut_screensleep">休眠</string>
     <string name="shortcut_volume">音量</string>
     <string name="shortcut_toggle_title">Action to perform</string>
     <string name="shortcut_chamber">Chamber of Secrets</string>

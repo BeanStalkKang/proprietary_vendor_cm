@@ -124,4 +124,7 @@
     <!-- tap-to-wake -->
     <string name="double_tap_to_wake_title">双击唤醒</string>
 
+    <string name="screen_security_category">屏幕安全性</string>
+    <string name="screen_security_summary">查看或改变锁屏安全性、延迟以及超时设置</string>
+
 </resources>

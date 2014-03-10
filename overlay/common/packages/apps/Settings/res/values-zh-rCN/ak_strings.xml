@@ -299,4 +299,15 @@ PA 版本是全屏助手，简洁美观的方式在全屏模式中提供基本�
     <string name="quick_mode_title">快速安装</string>
     <string name="quick_mode_summary">显示更小的安装/卸载窗口，安装过程将会被隐藏以便快速安装更多的应用程序</string>
 
+    <string name="generalUI_title">界面</string>
+    <string name="system_title">系统</string>
+    <string name="misc_title">其它</string>
+
+    <!-- Text for forcing expanded notifications -->
+    <string name="force_expanded_notifications_title">强制展开通知</string>
+    <string name="force_expanded_notifications_summary">仅适用于支持展开通知的应用</string>
+
+    <!-- OmniSwitch -->
+    <string name="omniswitch_settings_title">OmniSwitch</string>
+
 </resources>
