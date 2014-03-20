@@ -299,7 +299,7 @@ else
     CM_EXTRAVERSION :=
 endif
 
-Bean_Version=4.4.255
+Bean_Version=4.4.270
 CM_VERSION := BeanStalkKang-$(CM_BUILD)-kk-aikons-$(DATE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
