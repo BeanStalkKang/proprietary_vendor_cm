@@ -25,4 +25,9 @@
     <string name="device_front_camera">Front facing camera</string>
     <string name="device_screen_resolution">Screen resolution</string>
 
+    <string name="slim_shortcut_picker">BeanStalkKang Actions</string>
+
+    <string name="shortcut_action_pie">Slim Pie</string>
+    <string name="shortcut_action_papie">PA Pie</string>
+
 </resources>

@@ -222,79 +222,8 @@ PA 版本是全屏助手，简洁美观的方式在全屏模式中提供基本�
     <string name="privacy_mode_summary">隐藏所有通知内容，只显示通知图标</string>
     <string name="excluded_apps_title">排除应用</string>
     <string name="excluded_apps_summary">排除的应用将不会显示为锁屏通知</string>
+    <string name="notification_color">通知背景颜色</string>
     
-    <!-- Pie control -->
-    <string name="additional_category_title">附加</string>
-    <string name="general_category_title">常规</string>
-    <string name="advanced_category_title">高级</string>
-    <string name="pie_control_title">Slim Pie</string>
-    <string name="theme_settings_title">Total blackout</string>
-    <string name="color_default">默认</string>    
-    <string name="pie_control_always">不设限制启用</string>
-    <string name="pie_control_expanded">只有全屏模式时自动启用</string>
-    <string name="pie_control_disabled">关闭</string>
-    <string name="pie_control_size">面板大小</string>
-    <string name="pie_control_trigger_positions">触发侧设定</string>
-    <string name="pie_control_trigger_left">左侧边框</string>
-    <string name="pie_control_trigger_bottom">底部边框</string>
-    <string name="pie_control_trigger_right">右侧边框</string>
-    <string name="pie_control_trigger_top">顶部边框</string>
-    <string name="pie_button_style">按键样式</string>
-    <string name="pie_button_color_title">按键颜色</string>
-    <string name="pie_button_alpha_title">按键透明度</string>
-    <string name="pie_button_outline_color_title">按键框线颜色</string>
-    <string name="pie_button_pressed_color_title">按下按键颜色</string>
-    <string name="pie_button_long_pressed_color_title">长按按键颜色</string>
-    <string name="pie_button_pressed_alpha_title">按下按键颜色透明度</string>
-    <string name="pie_icon_color_title">按键图标颜色</string>
-    <string name="pie_icon_color_mode_title">图标颜色模式</string>
-    <string name="pie_icon_color_mode_dialog_title">彩色化</string>
-    <string name="pie_icon_color_mode_summary">更改按键图标的颜色模式</string>
-    <string name="pie_trigger_thickness_title">触发区宽度</string>
-    <string name="pie_trigger_height_title">左右侧触发区高度</string>
-    <string name="pie_trigger_gravity_left_right_title">触发区重心</string>
-    <string name="pie_trigger_gravity_left_right_dialog_title">设定左右方触发区重心</string>
-    <string name="pie_trigger_gravity_left_right_bottom">下方</string>
-    <string name="pie_trigger_gravity_left_right_center">中间</string>
-    <string name="pie_trigger_gravity_left_right_top">上方</string>
-    <string name="menu_pie_trigger_settings_reset">重置触发区设定</string>
-    <string name="pie_trigger">触发区域设定</string>
-    <string name="pie_trigger_summary">更改触发区域</string>
-    <string name="pie_trigger_note_title">提示</string>
-    <string name="pie_trigger_note_summary">为避色跟状态栏及导航栏互相干扰, 触发区域会根据重叠的边缘范围自动调整</string>
-    <string name="pie_disable_ime_triggers_title">使用键盘时关闭或调节触发区域</string>
-    <string name="pie_disable_ime_triggers_summary">使用软键盘时,自动关闭或调节键盘位置的触发区域</string>
-    <string name="pie_background_color_title">背景颜色</string>
-    <string name="pie_snap_color_title">捕捉点颜色</string>
-    <string name="pie_text_color_title">文字颜色</string>
-    <string name="pie_background_alpha_title">背景透明度</string>
-    <string name="pie_mirror_right_title">镜像复制</string>
-    <string name="pie_mirror_right_summary">将左侧的配置自动复制到右侧</string>
-    <string name="pie_style_title">样式</string>
-    <string name="pie_style_summary">自定义大小和样式</string>
-    <string name="pie_default">默认</string>
-    <string name="pie_show_snap_title">显示捕捉点</string>
-    <string name="pie_show_snap_summary">显示捕捉点以便自由拖动转换</string>
-    <string name="pie_show_text_title">显示状态和时钟</string>
-    <string name="pie_show_text_summary">显示信号，日期及时间状态</string>
-    <string name="pie_disable_statusbar_info_title">隐藏状态栏重复信息内容</string>
-    <string name="pie_disable_statusbar_info_summary">隐藏重复的状态栏信息:时间，电量</string>
-    <string name="pie_show_background_title">显示背景</string>
-    <string name="pie_show_background_summary">显示 Pie 按键背景</string>
-    <string name="pie_button_title">按键</string>
-    <string name="pie_button_summary">设置按键和位置</string>
-    <string name="pie_second_layer_title">启用第二行按键</string>
-    <string name="pie_second_layer_summary">启用或关闭第二行按键</string>
-    <string name="pie_button_second_layer">第二行按键</string>
-    <string name="pie_button_second_layer_summary">更改第二行按键</string>
-    <string name="pie_button_style_summary">更改 Pie 按键样式</string>
-    <string name="pie_reset">重置</string>
-    <string name="pie_style_reset_message">把所有设定重置到默认值？</string>
-    <string name="pie_trigger_reset_message">重置所有触发区设定？</string>
-
-    <string name="navbar_menu_display_title">菜单键可见性</string>
-    <string name="navbar_menu_display_summary">你想菜单键在什么情况下显示？</string>
-
     <!-- Quick Install -->
     <string name="quick_mode_title">快速安装</string>
     <string name="quick_mode_summary">显示更小的安装/卸载窗口，安装过程将会被隐藏以便快速安装更多的应用程序</string>
@@ -307,7 +236,9 @@ PA 版本是全屏助手，简洁美观的方式在全屏模式中提供基本�
     <string name="force_expanded_notifications_title">强制展开通知</string>
     <string name="force_expanded_notifications_summary">仅适用于支持展开通知的应用</string>
 
-    <!-- OmniSwitch -->
-    <string name="omniswitch_settings_title">OmniSwitch</string>
+    <string name="shortcut_action_papie">PA Pie</string>
+
+    <string name="expanded_desktop_system_bars_visibility">显示状态栏和导航栏</string>
+    <string name="expanded_desktop_system_bars_visibility_summary">全屏模式时在锁屏界面显示状态栏和导航栏</string>
 
 </resources>

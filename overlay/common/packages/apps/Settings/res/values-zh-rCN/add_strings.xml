@@ -127,4 +127,7 @@
     <string name="screen_security_category">屏幕安全性</string>
     <string name="screen_security_summary">查看或改变锁屏安全性、延迟以及超时设置</string>
 
+    <!-- GPS download data over wi-fi only -->
+    <string name="gps_download_data_wifi_only">只通过 WLAN 网络下载 GPS 辅助数据</string>
+
 </resources>

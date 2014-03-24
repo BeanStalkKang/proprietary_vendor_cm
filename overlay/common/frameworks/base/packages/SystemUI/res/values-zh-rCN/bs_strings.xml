@@ -68,19 +68,19 @@
     <string name="shortcut_last_app">最后应用</string>
     <string name="shortcut_screenshot">屏幕截图</string>
     <string name="shortcut_volume">音量</string>
-    <string name="shortcut_toggle_title">Action to perform</string>
-    <string name="shortcut_chamber">Chamber of Secrets</string>
-    <string name="chamber_disabled">Chamber of secrets is closed</string>
-    <string name="chamber_title">Input Settings string</string>
-    <string name="chamber_message">Input a Settings string that is either an on and off (checkbox) function or possibly a list-preference. For example, quiet_hours_ringer or similar. Settings can be found in the Settings.java file. WARNING: This process is dangerous!</string>
-    <string name="chamber_invalid">This is an invalid input. Be careful.</string>
-    <string name="chamber_checkbox">Checkbox</string>
-    <string name="chamber_chk_message">Is this setting a checkbox setting?</string>
-    <string name="chamber_int">Input values</string>
-    <string name="chamber_int_message">Input the values you\'d like the setting to toggle between. Separate each value with a comma. Color settings accept hex-values such as #FF00aacc or basic color values like red, green, and yellow.</string>
-    <string name="chamber_name_title">Shortcut name</string>
-    <string name="chamber_name_message">Give the shortcut a name to display with the icon.</string>
-    <string name="chamber_name_toast">Using default name</string>
+    <string name="shortcut_toggle_title">执行动作</string>
+    <string name="shortcut_chamber">密室</string>
+    <string name="chamber_disabled">密室已关闭</string>
+    <string name="chamber_title">输入字串</string>
+    <string name="chamber_message">输入字串来自定义标示开关或列表内容。例如，quiet_hours_ringer 等。基本上记载于 Settings.java 文件的字串都可以修改。警告: 这个动作有相当危险性！</string>
+    <string name="chamber_invalid">输入无效</string>
+    <string name="chamber_checkbox">复选框</string>
+    <string name="chamber_chk_message">确定这是一个复选框设定？</string>
+    <string name="chamber_int">输入数值</string>
+    <string name="chamber_int_message">输入你想开关状态代表数值。每个数值用逗号分隔，颜色设置接受十六进制值，例如＃FF00aacc，或以英文输入简单配色例如 red green及 yellow。</string>
+    <string name="chamber_name_title">捷径名称</string>
+    <string name="chamber_name_message">为捷径自定义名称</string>
+    <string name="chamber_name_toast">使用默认名称</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_gps">GPS</string>
@@ -137,8 +137,38 @@
     <string name="quick_settings_custom_toggle">自定义</string>
     <string name="quick_settings_contact_toggle">联系人</string>
 
+    <string name="quick_settings_reminder">提醒</string>
+    <string name="quick_settings_reminder_title">主题:</string>
+    <string name="quick_settings_reminder_message">信息:</string>
+    <string name="quick_settings_reminder_time">提醒时间</string>
+    <string name="quick_settings_reminder_set">设定时间</string>
+    <string name="quick_settings_reminder_update">更新时间</string>
+    <string name="quick_settings_reminder_no_expire">没有通知</string>
+    <string name="quick_settings_reminder_dismiss">清除通知</string>
+    <string name="quick_settings_reminder_dismiss_message">清除当前提醒事项？</string>
+    <string name="quick_settings_reminder_help_title">点击</string>
+    <string name="quick_settings_reminder_noti_dismiss">取消</string>
+    <string name="quick_settings_reminder_help_message">点击上面的空白区域设置或更改提醒，长按清除当前的提醒。</string>
+
     <!-- Label in drop down to identify brightness slider -->
     <string name="brightness_label">亮度</string>
     <string name="powerwidget_screen_timeout_never_toast">屏幕设为常亮</string>
+
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">正在充电 (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">充电完成</string>
+    <string name="pie_battery_status_discharging">剩余 <xliff:g id="percent">%d</xliff:g>%%</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">无服务</string>
+    <string name="pie_phone_status_airplane_mode">飞行模式</string>
+    <string name="pie_phone_status_emergency_only">只可拨打紧急号码</string>
+
+    <!-- Slim recents -->
+    <string name="status_bar_recent_playstore_item_title">Play 商店</string>
+    <string name="status_bar_recent_amazon_item_title">Amazon 商店</string>
+
+    <!-- Smart PullDown Warning -->
+    <string name="smart_pulldown_disabled">智能下拉已关闭</string>
 
 </resources>
