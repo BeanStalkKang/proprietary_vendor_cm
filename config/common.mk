@@ -194,6 +194,7 @@ PRODUCT_PACKAGES += \
     MonthCalendarWidget \
     LockClock \
     DashClock \
+    ChameleonEngine \
     CMFileManager
 
 PRODUCT_PACKAGES += \
