@@ -740,11 +740,15 @@
     <string name="lockscreen_colorize_handle_summary">锁头图案将以自定义色彩著色</string>
     <string name="lockscreen_style_title">主题风格</string>
     <string name="lockscreen_frame_color_title">轮廓颜色</string>
-    <string name="lockscreen_frame_color_summary">小工具及解锁框著色</string>
+    <string name="lockscreen_frame_color_summary">小工具及解锁框色彩</string>
     <string name="lockscreen_lock_color_title">锁图示色彩</string>
     <string name="lockscreen_lock_color_summary">锁拖把色彩</string>
     <string name="lockscreen_dots_color_title">PIN 矩阵点色彩</string>
     <string name="lockscreen_dots_color_summary">发光区点色彩</string>
+    <string name="lockscreen_targets_color_title">滑块目标色彩</string>
+    <string name="lockscreen_targets_color_summary">滑块目标的色彩</string>
+    <string name="lockscreen_misc_color_title">其他颜色</string>
+    <string name="lockscreen_misc_color_summary">其余项目的颜色</string>
 
     <!-- Lockscreen widget settings -->
     <string name="lockscreen_widgets_title">小部件</string>
@@ -756,6 +760,8 @@
     <string name="lockscreen_disable_hints_summary">禁用初始页面的提示</string>
     <string name="lockscreen_use_widget_container_carousel_title">启用纵向小部件旋转</string>
     <string name="lockscreen_use_widget_container_carousel_summary">锁屏小部件之间切换时使用纵向旋转动画</string>
+    <string name="lockscreen_widget_frame_title">禁用小部件框架</string>
+    <string name="lockscreen_widget_frame_summary">禁用小部件的背景框架</string>
 
     <!-- Init.d Settings : Warning dialog -->
     <string name="init_warning_title">请先阅读</string>
@@ -830,6 +836,18 @@
     <string name="lock_numpad_random_off">关闭</string>
     <string name="lock_numpad_random_always">永远改变</string>
     <string name="lock_numpad_random_on_request">按需要</string>
+
+    <!-- Shake to secure -->
+    <string name="shake_to_secure_title">摇动锁屏以启用安全性</string>
+    <string name="shake_to_secure_summary">安全性将在每次成功解锁后被禁用</string>
+    <string name="shake_to_secure_dlg_title">警告：</string>
+    <string name="shake_to_secure_dlg_message">除非您在锁屏时候摇动手机或摇动锁逾时值，否则手机不会上锁。（解锁后会重置初始状态）</string>
+    <string name="shake_secure_timeout_title">摇动锁逾时值</string>
+    <string name="shake_secure_timeout_disabled">永不</string>
+    <string name="shake_secure_timeout_1min">1 分钟后自动锁上</string>
+    <string name="shake_secure_timeout_5min">5 分钟后自动锁上</string>
+    <string name="shake_secure_timeout_10min">10 分钟后自动锁上</string>
+    <string name="shake_secure_timeout_30min">30 分钟后自动锁上</string>
 
     <!-- Lock before unlock -->
     <string name="lock_before_unlock_title">安全解锁前显示滑块</string>
@@ -920,6 +938,7 @@
     <string name="title_tile_expanded_desktop">全屏模式</string>
     <string name="title_tile_music">音乐</string>
     <string name="title_tile_reboot">重启</string>
+    <string name="internal_memory_tile">内存</string>
     <string name="dynamic_tile_ime_switcher">输入法切换器</string>
     <string name="dynamic_tile_usb_tether">USB 网络共享</string>
     <string name="dynamic_tile_alarm">闹钟</string>
@@ -1474,6 +1493,11 @@
     <string name="custom_recent_title">启用 Slim 最近应用界面</string>
     <string name="custom_recent_summary">在 Slim/默认 最近应用界面之间切换</string>
 
+    <string name="recent_panel_expanded_mode_title">展开方式</string>
+    <string name="recent_panel_expanded_mode_summary">最近应用界面任务展开方式</string>
+    <string name="recent_panel_expanded_mode_auto">自动 (默认)</string>
+    <string name="recent_panel_expanded_mode_always">永远展开</string>
+    <string name="recent_panel_expanded_mode_never">永不展开</string>
     <string name="clock_font_style_title">字体</string>
     <string name="clock_font_bold">粗体</string>
     <string name="clock_font_condensed">紧凑</string>
@@ -1530,4 +1554,131 @@
     <string name="ime_exit_animation_title">退出动画</string>
     <string name="ime_interpolator_title">插值</string>
     <string name="ime_duration_title">输入法持续时间</string>
+
+    <!-- Recent panel -->
+    <string name="recent_panel_category">最近应用界面</string>
+    <string name="recent_panel_scale_title">大小</string>
+    <string name="recent_panel_scale_summary">最近应用界面大小比例</string>
+    <string name="recent_panel_100">100% (默认)</string>
+    <string name="recent_panel_85">85%</string>
+    <string name="recent_panel_70">70%</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">左侧显示</string>
+    <string name="recent_panel_lefty_mode_summary">在左侧显示最近应用界面</string>
+
+    <!-- Text for forcing expanded notifications -->
+    <string name="disable_fc_notifications_title">关闭强制关闭通知</string>
+    <string name="disable_fc_notifications_summary">隐藏所有强制关闭通知</string>
+	
+    <!-- Toggle switch title for enabling battery saver connections. [CHAR LIMIT=32] -->
+    <string name="data_usage_enable_batterysaver">省电模式</string>
+    
+    <!-- Battery saver mode -->
+    <string name="unit_sec">秒</string>
+    <string name="network_lte">LTE (推荐)</string>
+    <string name="network_4G">4G (推荐)</string>
+    <string name="network_3G_only">仅 3G</string>
+    <string name="network_3G_auto">2G/3G 自动</string>
+    <string name="network_3G">首选 2G/3G</string>
+    <string name="network_2G">仅 2G</string>
+    <string name="network_1x">1x</string>
+    <string name="network_global">全局</string>
+    <string name="battery_saver_action_undefined">未定义</string>
+    <string name="battery_saver_title">省电模式</string>
+    <string name="pref_battery_saver_enable_title">省电</string>
+    <string name="pref_battery_saver_enable_summary">依据移动数据和 Wi-Fi 连接状态自动管理电池用量和切换网络到用户自定的省电模式或正常模式</string>
+    <string name="pref_battery_saver_normal_mode_title">正常网络模式</string>
+    <string name="pref_battery_saver_power_saving_mode_title">节能网络模式</string>
+    <string name="pref_battery_saver_screen_off_title">屏幕关闭时</string>
+    <string name="pref_battery_saver_screen_off_summary">当屏幕关闭时引导省电模式</string>
+    <string name="pref_battery_saver_ignore_locked_title">锁定时忽略</string>
+    <string name="pref_battery_saver_ignore_locked_summary">当屏幕打开时，省电模式不会停用直到锁屏被解锁</string>
+    <string name="pref_battery_saver_mode_change_delay_title">更改模式延迟</string>
+    <string name="pref_battery_saver_mode_change_delay_summary">延迟几秒钟改变省电模式</string>
+    <string name="pref_battery_saver_battery_title">电量低时</string>
+    <string name="pref_battery_saver_battery_summary">当电量低时引导省电模式</string>
+    <string name="pref_battery_saver_mode_battery_level_title">电量</string>
+    <string name="pref_battery_saver_mode_battery_level_summary">在特定的电量时引导省电模式或改变屏幕亮度</string>
+    <string name="pref_battery_saver_bluetooth_title">禁用蓝牙</string>
+    <string name="pref_battery_saver_bluetooth_summary">省电打开时禁用蓝牙连接</string>
+    <string name="pref_battery_saver_data_title">禁用移动数据</string>
+    <string name="pref_battery_saver_data_summary">省电打开时禁用移动数据连接</string>
+    <string name="pref_battery_saver_location_title">禁用 GPS</string>
+    <string name="pref_battery_saver_location_summary">省电打开时禁用 GPS 连接</string>
+    <string name="pref_battery_saver_enable_no_mobiledata_summary">将自动管理电池用量到用户自定</string>
+    <string name="pref_battery_saver_wifi_title">禁用 Wi-Fi</string>
+    <string name="pref_battery_saver_wifi_summary">省电打开时禁用 Wi-Fi 连接</string>
+    <string name="pref_battery_saver_led_title">禁用 LED</string>
+    <string name="pref_battery_saver_led_summary">省电打开时禁用 LED 通知</string>
+    <string name="pref_battery_saver_vibrate_title">禁用震动</string>
+    <string name="pref_battery_saver_vibrate_summary">省电打开时禁用震动</string>
+    <string name="pref_battery_saver_brightness_title">亮度模式</string>
+    <string name="pref_battery_saver_brightness_summary">当电量低时引导亮度等级改变</string>
+    <string name="pref_battery_saver_mode_brightness_level_title">亮度等级</string>
+    <string name="pref_battery_saver_mode_brightness_level_summary">省电打开时改变亮度等级</string>
+    <string name="pref_battery_saver_cpu_title">CPU 节能模式</string>
+    <string name="pref_battery_saver_cpu_summary">将自动切换最大 CPU 频率到用户自定的省电模式</string>
+    <string name="battery_saver_mode_current_speed">当前速度</string>
+    <string name="battery_saver_mode_current_max">最大速度：</string>
+    <string name="battery_saver_mode_cpu_info_list_header">核心状态</string>
+    <string name="battery_saver_mode_cpu_speed_header">核心限制</string>
+    <string name="battery_saver_mode_core_offline">下线</string>
+    <string name="battery_saver_mode_core">核心</string>
+    <string name="battery_saver_cpu_mode_title">引导 CPU 节能模式</string>
+    <string name="pref_battery_saver_cpu_warning_title">注意：</string>
+    <string name="pref_battery_saver_cpu_warning_summary">我们不能保证会起作用。</string>
+    <string name="pref_battery_saver_network_title">智能网络更改</string>
+    <string name="pref_battery_saver_network_summary">屏幕关闭并启用省电模式时，特定时间间隔后允许切换网络到正常模式</string>
+    <string name="pref_battery_saver_nosignal_title">智能网络信号</string>
+    <string name="pref_battery_saver_nosignal_summary">无网络信号 5 分钟后引导飞行模式</string>
+    <string name="pref_battery_saver_sync_title">禁用同步</string>
+    <string name="pref_battery_saver_sync_summary">省电打开时禁用同步连接</string>
+    <string name="pref_battery_saver_killall_title">结束所有工作</string>
+    <string name="pref_battery_saver_killall_summary">省电打开时允许结束所有工作</string>
+    <string name="pref_battery_saver_toast_title">显示提醒</string>
+    <string name="pref_battery_saver_toast_summary">当省电模式改变设备分配时，允许显示提醒</string>
+    <string name="battery_saver_battery_title">电池选项</string>
+    <string name="battery_saver_radio_title">无线选项</string>
+    <string name="battery_saver_network_title">其它网络设置</string>
+    <string name="battery_saver_network_gsm_title">GSM 网络</string>
+    <string name="battery_saver_network_cdma_title">CDMA 网络</string>
+    <string name="battery_saver_system_title">系统选项</string>
+
+    <!-- On-the-Go -->
+    <string name="power_menu_onthego_title">透视模式</string>
+    <string name="title_tile_onthego">透视模式</string>
+
+    <!-- Backups -->
+    <!-- Title for the BackupSettings activity and the backups category in InstalledAppDetails -->
+    <string name="backups_title">备份</string>
+    <!-- Manage applications, label for perform backup button -->
+    <string name="restore_backup">恢复</string>
+    <!-- Manage applications, label for restore backup button -->
+    <string name="create_backup">备份</string>
+    <!-- Title of the preference select the backup folder -->
+    <string name="backup_location_title">备份位置</string>
+    <!-- Title of the preference to change maximum number of backups kept per package -->
+    <string name="backup_history_title">备份历史</string>
+    <!-- Summary of the preference to change maximum number of backups kept per package -->
+    <string name="backup_history_summary">每个应用备份的最大数目</string>
+    <!-- Title if the dialog to move existing backups to the new location after a new backup location was selected. -->
+    <string name="backup_move_new_location">移动所有现有的备份到新的位置？</string>
+    <!-- Title of the dialog to trim backup history after backup_history preference was changed -->
+    <string name="backup_history_trim">调整备份历史？</string>
+    <!-- Toast message if backup folder is missing -->
+    <string name="backup_location_missing">备份位置没有设置或已被删除，使用默认值：  %s</string>
+    <!-- Text in the notification displayed while moving backups -->
+    <string name="backup_notification_moving">移动所有备份到新的位置</string>
+    <!-- Text in the notification displayed while deleting backups -->
+    <string name="backup_notification_deleting">删除备份中</string>
+    <!-- Title of ManageBackupsActivity -->
+    <string name="manage_backups_activity_title">管理备份</string>
+    <!-- Description of ManageBackupsActivity -->
+    <string name="manage_backups_activity_description">创建，恢复和删除备份</string>
+    <!-- Displayed as a toast in ManageBackupsActivity if a backup is requested, but no app selected -->
+    <string name="no_apps_selected">没有选择应用</string>
+    <!-- Displayed as a toast in ManageBackupsActivity if a restore/delete is requested, but no backup selected -->
+    <string name="no_backups_selected">没有选择备份</string>
+
 </resources>

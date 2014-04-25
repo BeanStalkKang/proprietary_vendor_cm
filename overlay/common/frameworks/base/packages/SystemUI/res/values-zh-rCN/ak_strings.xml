@@ -31,4 +31,13 @@
     <!-- Title shown in recents popup for unlocking an app from being cleared -->
     <string name="status_bar_recent_unlock_item_title">解锁</string>
 
+    <!-- [CHAR LIMIT=30] Location settings screen, high accuracy location mode -->
+    <string name="location_mode_high_accuracy_title">准确度高</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, battery saving location mode -->
+    <string name="location_mode_battery_saving_title">耗电量低</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, device only location mode -->
+    <string name="location_mode_sensors_only_title">仅限设备</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, location off mode -->
+    <string name="location_mode_location_off_title">关闭定位</string>
+
 </resources>

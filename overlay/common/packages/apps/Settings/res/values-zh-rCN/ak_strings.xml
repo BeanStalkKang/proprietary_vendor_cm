@@ -241,4 +241,8 @@ PA 版本是全屏助手，简洁美观的方式在全屏模式中提供基本�
     <string name="expanded_desktop_system_bars_visibility">显示状态栏和导航栏</string>
     <string name="expanded_desktop_system_bars_visibility_summary">全屏模式时在锁屏界面显示状态栏和导航栏</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="haptic_qs_tiles_title">振动反馈</string>
+    <string name="haptic_qs_tiles_summary">点击磁贴时振动</string>
+
 </resources>
